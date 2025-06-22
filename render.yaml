@@ -3,5 +3,5 @@ services:
     name: your-app-name
     env: python
     buildCommand: pip install -r requirements.txt
-    startCommand: gunicorn app:app # Replace with your actual file and app name
+    startCommand: gunicorn app:app
     pythonVersion: 3.10
